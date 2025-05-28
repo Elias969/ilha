@@ -26,7 +26,7 @@ const Lendas: React.FC = () => {
     {
       id: 1,
       nome: "Lenda Um",
-      apelido: "Lenda1",
+      apelido: "Baiano",
       funcao: "Fundador",
       descricao: "Ex-jogador profissional com vasta experiência...",
       imagem: "/assets/images/baiano.jpg",
@@ -39,7 +39,7 @@ const Lendas: React.FC = () => {
     {
       id: 2,
       nome: "Lenda Dois",
-      apelido: "Lenda2",
+      apelido: "Esa",
       funcao: "Streamer",
       descricao: "Especialista em estatísticas e análise de dados...",
       imagem: "/assets/images/esa.jpg",
@@ -52,7 +52,7 @@ const Lendas: React.FC = () => {
     {
       id: 3,
       nome: "Lenda Três",
-      apelido: "Lenda3",
+      apelido: "Minerva",
       funcao: "Streamer",
       descricao: "Conhecido pelo humor afiado e personalidade carismática...",
       imagem: "/assets/images/minerva.jpg",
@@ -65,7 +65,7 @@ const Lendas: React.FC = () => {
     {
       id: 4,
       nome: "Lenda Quatro",
-      apelido: "Lenda4",
+      apelido: "Mylon",
       funcao: "Streamer",
       descricao: "Especialista em meta-game e estratégias competitivas...",
       imagem: "/assets/images/mylon.png",

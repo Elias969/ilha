@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
           {/* Logo e Descrição */}
           <motion.div variants={itemVariants}>
             <img 
-              src="/assets/logos/ilha-das-lendas-logo.png" 
+              src="/assets/logos/Ilha_das_Lendaslogo_profile.png" 
               alt="Ilha das Lendas" 
               className="h-16 mb-4"
             />
