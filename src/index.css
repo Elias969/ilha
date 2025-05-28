@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-dark text-white font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  a {
+    @apply text-white hover:text-primary-lime transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-primary-purple text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 hover:bg-primary-blue hover:shadow-md;
+  }
+
+  .btn-secondary {
+    @apply bg-primary-blue text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 hover:bg-primary-teal hover:shadow-md;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary-purple text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 hover:bg-primary-purple/10 hover:shadow-md;
+  }
+
+  .btn-gradient-animated {
+  background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80);
+  background-size: 600% 600%;
+  animation: gradientAnimation 8s ease infinite;
+  color: white;
+}
+
+
+  .card {
+    @apply bg-background-purple/30 p-6 rounded-lg shadow-lg border border-primary-purple/20;
+  }
+
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-4 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-xl text-gray-300 mb-8 text-center max-w-3xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .bg-starry {
+    background-image: radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px);
+    background-size: 30px 30px;
+    background-color: #000000;
+  }
+}
+
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
