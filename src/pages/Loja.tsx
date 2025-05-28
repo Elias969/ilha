@@ -36,7 +36,7 @@ const mockProdutos: Produto[] = [
     id: 3,
     nome: "Caneca Ilha das Lendas - Gradiente",
     preco: 39.90,
-    imagem: "/assets/images/demonstracao/placeholder_caneca.png", // Placeholder
+    imagem: "/assets/images/caneca.jpg", // Placeholder
     descricao: "Caneca com o gradiente oficial da Ilha das Lendas.",
     categoria: "Acessórios"
   },
