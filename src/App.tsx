@@ -5,26 +5,29 @@ import Home from './pages/Home';
 import Lendas from './pages/Lendas';
 import Canais from './pages/Canais';
 import Calendario from './pages/Calendario';
-import Loja from './pages/Loja'; // Importar nova página
-import Cartinhas from './pages/Cartinhas'; // Importar nova página
-import Videos from './pages/Videos'; // Importar nova página
-import Forum from './pages/Forum'; // Importar nova página
-import Parcerias from './pages/Parcerias'; // Importar nova página
-import Blog from './pages/Blog'; // Importar nova página
-import Membros from './pages/Membros'; // Importar nova página
-import Torneios from './pages/Torneios'; // Importar nova página
-import Guias from './pages/Guias'; // Importar nova página
+import Loja from './pages/Loja';
+import Cartinhas from './pages/Cartinhas';
+import Videos from './pages/Videos';
+import Forum from './pages/Forum';
+import Parcerias from './pages/Parcerias';
+import Blog from './pages/Blog';
+import Membros from './pages/Membros';
+import Torneios from './pages/Torneios';
+import Guias from './pages/Guias';
+
+// Importar o ScrollToTop
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop /> {/* Faz scroll para o topo a cada mudança de rota */}
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lendas" element={<Lendas />} />
           <Route path="/canais" element={<Canais />} />
           <Route path="/calendario" element={<Calendario />} />
-          {/* Adicionar rotas para as novas páginas */}
           <Route path="/loja" element={<Loja />} />
           <Route path="/cartinhas" element={<Cartinhas />} />
           <Route path="/videos" element={<Videos />} />
@@ -41,4 +44,3 @@ function App() {
 }
 
 export default App;
-
