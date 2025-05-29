@@ -59,34 +59,34 @@ const Canais: React.FC = () => {
   const canaisMembros: Canal[] = [
     {
       id: 5,
-      nome: "YouTube Lenda 1",
-      url: "https://youtube.com/lenda1",
+      nome: "YouTube Minerva",
+      url: "https://www.youtube.com/@GustavoMinerva",
       icon: <Youtube size={24} />,
       cor: "bg-red-600",
       descricao: "Canal pessoal com conteúdos exclusivos e vlogs."
     },
     {
       id: 6,
-      nome: "Twitch Lenda 1",
-      url: "https://twitch.tv/lenda1",
+      nome: "Twitch Minerva",
+      url: "https://twitch.tv/minerva",
       icon: <Twitch size={24} />,
       cor: "bg-purple-600",
       descricao: "Streams diários com gameplays e interação com inscritos."
     },
     {
       id: 7,
-      nome: "YouTube Lenda 2",
-      url: "https://youtube.com/lenda2",
+      nome: "YouTube Absolut",
+      url: "https://www.youtube.com/@CortesdoAbsolut",
       icon: <Youtube size={24} />,
       cor: "bg-red-600",
       descricao: "Conteúdos educativos sobre League of Legends e análises de partidas."
     },
     {
       id: 8,
-      nome: "Twitch Lenda 2",
-      url: "https://twitch.tv/lenda2",
-      icon: <Twitch size={24} />,
-      cor: "bg-purple-600",
+      nome: "Twitter Absolut",
+      url: "twitter.com/Absoluttlol",
+      icon: <Twitter size={24} />,
+      cor: "bg-blue-500",
       descricao: "Streams de alta elo com comentários técnicos."
     }
   ];

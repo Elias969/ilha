@@ -10,7 +10,7 @@ interface Vod {
   titulo: string;
   thumbnail: string; // Placeholder
   link: string; // Link para YouTube/Twitch
-  tipo: 'React' | 'Gameplay' | 'Podcast' | 'Especial';
+  tipo: 'React' | 'Gameplay' | 'Programa' | 'Especial';
   data: string; // Data de publicação
   descricaoCurta: string;
 }
@@ -20,7 +20,7 @@ const mockVods: Vod[] = [
   {
     id: 1,
     titulo: "REACT COMPLETO: Final CBLOL 2025",
-    thumbnail: "/assets/images/demonstracao/placeholder_vod_cblol.png",
+    thumbnail: "/assets/images/final.jpg",
     link: "#", // Substituir pelo link real
     tipo: "React",
     data: "28/05/2025",
@@ -28,35 +28,35 @@ const mockVods: Vod[] = [
   },
   {
     id: 2,
-    titulo: "Gameplay Insana: Jukes de Master Yi",
-    thumbnail: "/assets/images/demonstracao/placeholder_vod_jukes_yi.png",
+    titulo: "Depois do Crime",
+    thumbnail: "/assets/images/depoisdocrime.jpg",
     link: "#",
     tipo: "Gameplay",
     data: "27/05/2025",
-    descricaoCurta: "Jukes mostrando como carregar de Master Yi no high elo."
+    descricaoCurta: "depois do crime com Tatu."
   },
   {
     id: 3,
-    titulo: "Ilha Cast #15: Meta Atual e Tier List",
-    thumbnail: "/assets/images/demonstracao/placeholder_vod_podcast.png",
+    titulo: "Cartinhas das Lendas",
+    thumbnail: "/assets/images/maxresdefault.jpg",
     link: "#",
-    tipo: "Podcast",
+    tipo: "Programa",
     data: "26/05/2025",
     descricaoCurta: "Discussão sobre os campeões mais fortes do patch atual."
   },
   {
     id: 4,
-    titulo: "Showmatch Lendário: Ilha vs Convidados",
-    thumbnail: "/assets/images/demonstracao/placeholder_vod_showmatch.png",
+    titulo: "Circuito Desafiante",
+    thumbnail: "/assets/images/circuito.jpg",
     link: "#",
-    tipo: "Especial",
+    tipo: "React",
     data: "25/05/2025",
     descricaoCurta: "Melhores momentos do showmatch com participação especial."
   },
   {
     id: 5,
     titulo: "React MSI 2025 - Dia 3",
-    thumbnail: "/assets/images/demonstracao/placeholder_vod_msi.png",
+    thumbnail: "/assets/images/msi.jpg",
     link: "#",
     tipo: "React",
     data: "24/05/2025",
@@ -64,12 +64,12 @@ const mockVods: Vod[] = [
   },
   {
     id: 6,
-    titulo: "Guia Completo: Como Sair do Bronze com Mylon",
-    thumbnail: "/assets/images/demonstracao/placeholder_vod_guia_mylon.png",
+    titulo: "LCK T1 x HLE 2025 - dia 3",
+    thumbnail: "/assets/images/lck.jpg",
     link: "#",
-    tipo: "Gameplay",
+    tipo: "React",
     data: "23/05/2025",
-    descricaoCurta: "Mylon ensina os fundamentos para subir de elo na top lane."
+    descricaoCurta: "React lck dia 1."
   }
 ];
 

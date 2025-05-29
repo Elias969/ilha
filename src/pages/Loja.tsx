@@ -78,10 +78,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ produto }) => {
       description={`R$ ${produto.preco.toFixed(2)}`}
       className="flex flex-col justify-between"
     >
-      <div className="w-full h-48 bg-background-purple mb-4 rounded flex items-center justify-center">
-        {/* Placeholder para imagem */}
-        <img src={produto.imagem} alt={produto.nome} className="max-h-full max-w-full object-contain text-gray-500" onError={(e) => (e.currentTarget.src = '/assets/images/demonstracao/placeholder_default.png')} />
-      </div>
+      <div className="w-full aspect-[4/3] bg-background-purple mb-4 rounded flex items-center justify-center">
+  <img
+    src={produto.imagem}
+    alt={produto.nome}
+    className="max-h-full max-w-full object-contain"
+  />
+</div>
       <p className="text-gray-400 text-sm mb-4 flex-grow">{produto.descricao}</p>
       <Button variant="primary" className="w-full mt-auto">
         Adicionar ao Carrinho <ShoppingCart size={18} className="ml-2" />
